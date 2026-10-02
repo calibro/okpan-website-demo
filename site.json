@@ -63,5 +63,35 @@
     }
   ],
   "default_content_locale": "en",
-  "connection_types": []
+  "connection_types": [
+    {
+      "id": "3c33b68f-e0a3-44c5-b0ac-67425e6099aa",
+      "name": "New",
+      "name_i18n": {
+        "text_id": "37c32d2e-5714-4954-b9c7-3cb366422f5f",
+        "content": "New",
+        "original_language_id": "f10e4074-1e18-455d-9827-85e851ecaa2e",
+        "original_language_code": "en",
+        "translations": []
+      },
+      "description": "",
+      "description_i18n": {
+        "text_id": "28382c78-f9a8-470c-bff3-ed590b1b37cb",
+        "content": "",
+        "original_language_id": "f10e4074-1e18-455d-9827-85e851ecaa2e",
+        "original_language_code": "en",
+        "translations": []
+      },
+      "fields_config": {
+        "description": true,
+        "url": true,
+        "thumbnail": true,
+        "images": true,
+        "videos": true,
+        "audios": true,
+        "templateId": "custom"
+      },
+      "count": 1
+    }
+  ]
 }
