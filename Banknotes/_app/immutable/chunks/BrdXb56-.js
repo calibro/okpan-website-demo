@@ -1,0 +1,1 @@
+import{b as r}from"./Cf_TT3wA.js";function o(t){if(!t||!t.asset_path)return"";const s=t.asset_path.replace(/\\/g,"/");{const e=s.match(/project_assets\/(.+)$/);return e?r(`assets/${e[1]}`):r(`assets/${s.split("/").pop()}`)}}export{o as g};
